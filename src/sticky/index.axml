@@ -1,0 +1,8 @@
+<view class="{{className}}">
+  <view style="visibility: {{!isFixed ? 'visible' : 'hidden'}}">
+    <slot />
+  </view>
+  <view style="position: fixed; top: {{threshold}}px; visibility: {{isFixed ? 'visible' : 'hidden'}}">
+    <slot name="stick-faker">
+  </view>
+</view>

@@ -1,0 +1,22 @@
+.page {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+.sticky-bar {
+  width: 100vw;
+  height: 50px;
+  line-height: 50px;
+  background: #ccc;
+  text-align: center;
+}
+
+.list-item {
+  height: 40px;
+  line-height: 40px;
+}

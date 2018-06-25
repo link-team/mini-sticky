@@ -1,0 +1,28 @@
+{
+  "name": "mini-sticky",
+  "version": "0.0.1",
+  "description": "A sticky pollyfill for mini-program",
+  "scripts": {
+    "build": "rc-tools run compile && node scripts/cp.js && node scripts/rm.js",
+    "pub": "git push origin && npm run build && npm publish"
+  },
+  "keywords": [
+    "mini-program",
+    "sticky"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:link-team/mini-sticky.git"
+  },
+  "files": [
+    "es"
+  ],
+  "author": "Phieo",
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-ali": "^3.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "pre-commit-eslint": "^0.0.6",
+    "rc-tools": "^8.1.1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "mini-sticky",
+  "usingComponents": {
+    "sticky": "../index"
+  }
+}

@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="title">Mini-Sticky demo</view>
+  <sticky scrollTop="{{scrollTop}}" className="sticky" threshold="0">
+    <view style="height: 40px; line-height: 40px; background: #eee; width: 100vw; text-align: center">这个是sticky</view>
+    <view style="height: 40px; line-height: 40px; background: #eee; width: 100vw; text-align: center" slot="stick-faker">这个是sticky</view>
+  </sticky>
+  <view
+    class="list-item" 
+    a:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]}}"
+    style="background: {{index % 2 !== 0 ? '#eee': '#fff'}}">
+    <text>项目{{item}}</text>
+  </view>
+</view>
