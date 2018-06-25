@@ -10,7 +10,7 @@ $ npm install mini-sticky -S
 
 ```json
 "usingComponents": {
-    "sticky": "mini-sticky/es/index"
+    "sticky": "mini-sticky/es/sticky/index"
   }
 ```
 
