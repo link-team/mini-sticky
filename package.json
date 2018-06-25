@@ -1,6 +1,6 @@
 {
   "name": "mini-sticky",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A sticky pollyfill for mini-program",
   "scripts": {
     "build": "rc-tools run compile && node scripts/cp.js && node scripts/rm.js",
