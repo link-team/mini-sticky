@@ -1,8 +1,8 @@
-<view class="{{className}}">
-  <view style="visibility: {{!isFixed ? 'visible' : 'hidden'}}">
+<view class="am-mini-sticky">
+  <view class="{{className}}" style="visibility: {{!isFixed ? 'visible' : 'hidden'}};">
     <slot />
   </view>
-  <view style="position: fixed; top: {{top}}px; visibility: {{isFixed ? 'visible' : 'hidden'}}">
+  <view class="{{className}}" style="position: fixed; top: {{top}}px; visibility: {{isFixed ? 'visible' : 'hidden'}};">
     <slot name="stick-faker">
   </view>
 </view>

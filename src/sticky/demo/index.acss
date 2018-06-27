@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.sticky {
+  width: 100%;
+}
+
 .title {
   text-align: center;
   height: 100px;

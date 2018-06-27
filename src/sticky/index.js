@@ -18,7 +18,7 @@ Component({
   methods: {
     setFixStatus() {
       my.createSelectorQuery()
-        .select(`.${this.props.className}`).boundingClientRect()
+        .select('.am-mini-sticky').boundingClientRect()
         .exec((ret) => {
           if (ret.length > 0) {
             const top = ret[0].top || 0;
