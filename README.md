@@ -8,7 +8,7 @@ A sticky pollyfill for mini-program.
 |----|----|----|----|----|
 | scrollTop | 实时传入的滚动条卷起高度 | number | null | true |
 | top | 固定时距离顶部高度 | number | 0 | false |
-| className | 类名，用于定义样式 | string | null | true |
+| className | 类名，用于定义样式 | string | null | false |
 
 ## Usage
 
